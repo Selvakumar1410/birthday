@@ -45,7 +45,7 @@ const OurStory = () => {
         <Chapter 
           num="01" 
           title="The Beginning" 
-          text="It didn't start with a conversation. It started with your friend texting me that she was going to send a PDF—a PDF filled with love notes you had written about me. That was the moment everything began."
+          text="It didn't start with a conversation. It started with a surprise PDF full of secret love notes you had written about me."
           image="/photos/story-1.jpg"
           align="left"
         />
