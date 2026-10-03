@@ -45,8 +45,8 @@ const TimelineItem = ({ item, index, activeIndex, setActiveIndex }) => {
                   
                   {/* Photo or placeholder */}
                   {item.image ? (
-                    <div className="mt-4 aspect-video rounded-lg overflow-hidden border border-wine-800/30">
-                      <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
+                    <div className="mt-4 rounded-lg overflow-hidden border border-wine-800/30">
+                      <img src={item.image} alt={item.title} className="w-full h-auto" />
                     </div>
                   ) : (
                     <div className="mt-4 aspect-video rounded-lg bg-wine-950/50 flex items-center justify-center border border-wine-800/30">

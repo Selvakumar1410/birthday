@@ -15,8 +15,8 @@ const Chapter = ({ num, title, text, image, align = "left", delay = 0 }) => {
         <h3 className="text-3xl md:text-4xl font-serif text-cream-100">{title}</h3>
       </div>
       
-      <div className="relative w-full aspect-[4/3] md:aspect-[16/9] rounded-xl overflow-hidden mb-6 bg-wine-900 border border-wine-800/50 shadow-2xl">
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+      <div className="relative w-full rounded-xl overflow-hidden mb-6 bg-wine-900 border border-wine-800/50 shadow-2xl">
+        <img src={image} alt={title} className="w-full h-auto max-h-[80vh] object-contain md:object-cover" />
       </div>
       
       <p className="text-wine-200 font-light text-lg md:text-xl leading-relaxed max-w-xl">

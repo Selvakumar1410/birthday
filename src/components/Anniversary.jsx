@@ -8,7 +8,7 @@ const Anniversary = ({ date }) => {
     const calculateTime = () => {
       const start = new Date(date);
       const now = new Date();
-      const diff = now - start;
+      const diff = Math.abs(now - start);
 
       const years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
       const months = Math.floor((diff % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24 * 30));

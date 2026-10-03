@@ -6,7 +6,7 @@ const Letter = () => {
 
   // Split your letter into paragraphs or lines for animated reveal
   const letterContent = [
-    "Chlm Kuttyyy,",
+    "Chl Kuttyyy,",
     "As I sit here thinking about what to write, I realize that words are never quite enough to capture how I feel.",
     "You came into my life and turned the ordinary into something extraordinary. Every laugh, every quiet moment, every look—they all mean the world to me.",
     "Happy Birthday. I hope today brings you even a fraction of the joy you bring me every single day.",
