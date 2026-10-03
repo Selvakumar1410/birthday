@@ -78,7 +78,7 @@ const Intro = ({ onComplete }) => {
             </div>
             
             <div className="bg-wine-900/50 backdrop-blur-sm p-8 rounded-2xl border border-wine-800/50 text-center">
-              <div className="text-4xl mb-4">❤️</div>
+              <div className="text-4xl mb-4">🤍🤎</div>
               <h3 className="font-serif text-2xl text-cream-100 mb-2">Our Anniversary</h3>
               <p className="font-sans text-wine-200 font-light text-sm">The day I got you.</p>
             </div>
